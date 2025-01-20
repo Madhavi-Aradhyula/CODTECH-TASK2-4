@@ -1,4 +1,4 @@
-# **FIR Filter Design on FPGA**
+# **FIR Filter Design**
 
 **Author:** MADHAVI ARADHYULA  
 **Company:** CODTECH IT SOLUTIONS  
@@ -11,7 +11,7 @@
 
 ## **Overview**
 
-The **FIR (Finite Impulse Response) Filter** is a type of digital filter widely used in various applications such as signal processing, audio systems, and communication systems. It processes input signals by applying a finite number of coefficients (taps) and performs multiplication and summation of input data with the corresponding tap values. The design presented here implements a 15-tap **Low Pass Filter (LPF)** using **Verilog** and is targeted for implementation on an FPGA (Field-Programmable Gate Array) using **Xilinx Vivado**.
+The **FIR (Finite Impulse Response) Filter** is a type of digital filter widely used in various applications such as signal processing, audio systems, and communication systems. It processes input signals by applying a finite number of coefficients (taps) and performs multiplication and summation of input data with the corresponding tap values. The design presented here implements a 15-tap **Low Pass Filter (LPF)** using **Xilinx Vivado**.
 
 This design uses a **circular buffer** to store input samples and perform the necessary computations for each tap. It is optimized to work with a clock frequency of **1MSps** and a **cutoff frequency of 400kHz**.
 
